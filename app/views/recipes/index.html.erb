@@ -1,0 +1,6 @@
+<% @recipes.each do |r| %>
+    <%= r.name %></br>
+    <%= r.ingredients.each do |i| %>
+        <%= i.name %></br>
+        <% end %> 
+<% end %>
